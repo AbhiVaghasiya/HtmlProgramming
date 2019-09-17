@@ -1,0 +1,55 @@
+div.header{
+  background-image: url("/home/sa02/Desktop/Untitled.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+  padding: 12px;
+  margin: 40px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  color: white;
+  float: left;
+  display: block;
+  background-color: black;
+  padding: 12px;
+  text-align: center;
+}
+
+.right{
+  float: right;
+}
+a:hover{
+  background-color: white;
+  color: black;
+}
+
+div.main_box{
+  /* padding-top: 80px; */
+  background-color: lightgrey;
+  padding: 41px;
+  margin: 40px;
+}
+
+div.box_1,.box_2{
+  background-color: white;
+  padding: 22px;
+  margin-left: 22px;
+  width: 94%;
+}
+
+@media screen and (max-width: 400px) {
+  /* ul.topnav{
+    width: 100%;
+    height: auto;
+  } */
+  ul.topnav li.a{
+    float: none;
+    text-align: center;
+  }
+}
